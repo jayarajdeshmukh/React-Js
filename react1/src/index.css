@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button
+{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: aqua;
+  color: black;
+  border-style: none;
+  
+}
+
+ .count{
+  display: block;
+  text-align: center;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  background-color: rgb(144, 172, 197);
+  border-style: none;
+ }
