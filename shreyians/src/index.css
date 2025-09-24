@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+button{
+  background-color: aqua;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+}
