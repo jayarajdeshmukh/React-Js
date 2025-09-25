@@ -1,0 +1,23 @@
+/*   Explanation
+ useState
+    Think of it like a small "memory box" to remember what the user typed.
+    username and password are stored here.
+
+ useNavigate
+    This is used to move (navigate) to another page in your website.
+   
+  handleLogin function
+    This runs when you click the login button.
+    It checks if the username and password are correct.
+
+  preventDefault()
+     Normally, when you submit a form in HTML, the page refreshes/reloads. 
+     But in React, we don’t want the page to reload.
+     So we use e.preventDefault() → it stops the page from refreshing.
+     This way, your React code (login checking) can work smoothly. 
+*/
+
+
+
+
+

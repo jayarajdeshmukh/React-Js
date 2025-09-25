@@ -1,0 +1,89 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100%;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    overflow: hidden;
+}
+
+.login-container
+{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.circles::before,
+.circles::after{
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    animation: float 6s ease-in-out infinite;
+}
+
+.circles::before
+{
+    width: 300px;
+    height: 300px;
+    top: 10%;
+    left: 10%;
+}
+
+.circles::after
+{
+    width: 200px;
+    height: 200px;
+    bottom: 10%;
+    right: 10%;
+}
+
+@keyframes float {
+    0%, 100% {transform: translateY(0);}
+    50%{transform: translateY(-20px);}
+}
+
+.login-form
+{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    color: white;
+}
+
+.login-form
+{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ .login-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+ }
+
+ .login-form button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #fff;
+    color: #2575fc;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+ }
+
+  .login-form button:hover{
+    background: #2e2c2c;
+  }
