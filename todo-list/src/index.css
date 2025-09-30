@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+.input{
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px;
+}
+form button{
+  background: rgb(44, 44, 255);
+  padding: 10px;
+  margin: 15px;
+  color: white;
+  border-radius: 5px;
+}

@@ -13,7 +13,7 @@ const Dashboard = () => {
           <li>📊 Reports</li>
           <li>⚙️ Setting</li>
           <li>🔔 Notification</li>
-          <Link to='/Login' style={{ color: "white", textDecoration: "none" }}>🚪Logout</Link>
+          <Link to='/' style={{ color: "white", textDecoration: "none" }}>🚪Logout</Link>
         </ul>
     </div>
 
